@@ -6,8 +6,6 @@
 </head>
 <body>
 
-
-
 <h3 th:if='${error}' th:text='${error}' style='color: red;'></h3>
 <div th:unless='${error}'>
     <h3 style='color: green;'>Success!</h3>
@@ -18,3 +16,4 @@
 </div>
 <a th:href='@{/checkout}'>Checkout again</a>
 </body>
+</html>
